@@ -31,7 +31,8 @@ handleChange = (e) => {
     );
    
  return( <div className="App">
- <h1> Monster Rolex</h1>
+ <h1> Monster Rolodex</h1>
+
  <SearchBox placeholder = "Search for Monster" handleChanges = {this.handleChange}></SearchBox>
 
  <Cardlist monsters = {filteredMonsters}> </Cardlist>
